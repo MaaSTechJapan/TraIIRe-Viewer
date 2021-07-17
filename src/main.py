@@ -5,7 +5,7 @@ def show_parquet(fn: str):
     df = pd.read_parquet(fn)
     show(df)
 
-if __name__ == "__main__":
+def main():
     import argparse
 
     parser = argparse.ArgumentParser(description='Get Isochrone Map Data')
